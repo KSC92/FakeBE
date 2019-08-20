@@ -1,5 +1,5 @@
-[
-  {
+{
+  "forms": {
     "values": {},
     "formStructure": {
       "forms": {
@@ -33,4 +33,4 @@
       }
     }
   }
-]
+}
