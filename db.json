@@ -15,7 +15,7 @@
           "name": "email",
           "label": "Email",
           "validators": ["email", "required"],
-          "size": [12, 12, 12, 12],
+          "size": [12, 12, 4, 4],
           "prefix": "faceRounded"
         },
         {
@@ -24,7 +24,7 @@
           "label": "Password",
           "type": "password",
           "validators": ["required"],
-          "size": [12, 12, 12, 12],
+          "size": [12, 12, 4, 4],
           "prefix": "lockOutlined",
           "sufix": "show"
         }
