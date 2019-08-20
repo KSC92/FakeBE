@@ -1,33 +1,31 @@
 {
-  "forms": [
-    {
-      "config": {
-        "spacing": 10,
-        "size": [6],
-        "direction": "row",
-        "justify": "center",
-        "alignItems": "center"
+  "forms": {
+    "config": {
+      "spacing": 10,
+      "size": [6],
+      "direction": "row",
+      "justify": "center",
+      "alignItems": "center"
+    },
+    "fields": [
+      {
+        "typeElement": "input",
+        "name": "email",
+        "label": "Email",
+        "validators": ["email", "required"],
+        "size": [12, 12, 12, 12],
+        "prefix": "faceRounded"
       },
-      "fields": [
-        {
-          "typeElement": "input",
-          "name": "email",
-          "label": "Email",
-          "validators": ["email", "required"],
-          "size": [12, 12, 12, 12],
-          "prefix": "faceRounded"
-        },
-        {
-          "typeElement": "input",
-          "name": "password",
-          "label": "Password",
-          "type": "password",
-          "validators": ["required"],
-          "size": [12, 12, 12, 12],
-          "prefix": "lockOutlined",
-          "sufix": "show"
-        }
-      ]
-    }
-  ]
+      {
+        "typeElement": "input",
+        "name": "password",
+        "label": "Password",
+        "type": "password",
+        "validators": ["required"],
+        "size": [12, 12, 12, 12],
+        "prefix": "lockOutlined",
+        "sufix": "show"
+      }
+    ]
+  }
 }
